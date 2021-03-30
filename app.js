@@ -62,6 +62,6 @@ app.post("/expedationresult",(req, res)=>{
     res.send(JSON.stringify(response));
 })
 
-app.listen(Process.env.PORT || 3000, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
     console.group("server is in listening mode");
 });
